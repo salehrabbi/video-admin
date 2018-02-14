@@ -239,13 +239,6 @@ a.admin-buttom {
     padding: 0 40px;
     clear: both; }
 
-  .social {
-    display: block; }
-
-  a.icon {
-    width: 50%;
-    float: left; }
-
   .upload-hear {
     padding: 0 15px; }
     .upload-hear .button p {
@@ -274,4 +267,20 @@ a.admin-buttom {
     top: 16px; }
 
   .profile-video {
-    padding-top: 40px; } }
+    padding-top: 40px; }
+
+  .icon-table {
+    height: 60px;
+    width: 60px; }
+
+  .icon-big {
+    font-size: 30px; }
+
+  .icon-small {
+    font-size: 21px; }
+
+  a.icon p {
+    font-size: 11px; } }
+@media (max-width: 366px) {
+  a.icon p {
+    font-size: 9px; } }
