@@ -1,0 +1,53 @@
+body {
+  font-family: 'Jim2 test';
+  font-weight: 300; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+
+/*================= Profile =================*/
+.profile-image img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 5px solid #d7d7d7;
+  padding: 10px;
+  border-radius: 50%; }
+
+.profile-name {
+  font-size: 33px;
+  color: #ed1d41;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.button {
+  padding: 8px;
+  background: #ed1d41;
+  width: 325px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .button i {
+    float: left;
+    display: block;
+    width: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    border-right: 2px solid #b51531;
+    padding: 6px 0; }
+  .button p {
+    float: left;
+    width: calc( 100% - 70px);
+    font-size: 20px;
+    color: #fffefe;
+    margin: 0;
+    font-family: "Montserrat", sans-serif; }
