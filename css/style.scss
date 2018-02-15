@@ -130,11 +130,12 @@ a.icon {
 .icon-small {
     position: absolute;
     right: 0px;
-    bottom: -6px;
+    bottom: 2px;
     color: #ed1f24;
     font-size: 30px;
     background: #fff;
     border-radius: 50%;
+    line-height: .7;
 }
 
 .icon.active {
@@ -197,14 +198,14 @@ a.icon {
     }
     .facebook {
         background: #3a5897;
-        .fab.fa-facebook-f {
+        .fa-facebook-f {
             font-size: 50px;
             top: 28px;
         }
     }
     .twitter {
         background: #00abec;
-        .fab.fa-twitter {
+        .fa-twitter {
             font-size: 50px;
             top: 28px;
         }
@@ -271,11 +272,11 @@ a.admin-buttom {
         font-size: 47px;
         right: 20px;
     }
-    .admin-button-wraper .facebook .fab.fa-facebook-f {
+    .admin-button-wraper .facebook .fa-facebook-f {
         font-size: 39px;
         top: 23px;
     }
-    .admin-button-wraper .twitter .fab.fa-twitter {
+    .admin-button-wraper .twitter .fa-twitter {
         font-size: 36px;
     }
     .profile .button {
@@ -327,8 +328,8 @@ a.admin-buttom {
         top: 14px;
         font-size: 36px;
     }
-    .admin-button-wraper .facebook .fab.fa-facebook-f,
-    .admin-button-wraper .twitter .fab.fa-twitter {
+    .admin-button-wraper .facebook .fa-facebook-f,
+    .admin-button-wraper .twitter .fa-twitter {
         font-size: 32px;
         top: 16px;
     }
