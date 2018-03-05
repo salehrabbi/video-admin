@@ -4,3 +4,6 @@ $(function () {
             html: true
         })
 })
+$("#play-list-class").click(function(){
+    $(".play-list").toggleClass("active");
+});

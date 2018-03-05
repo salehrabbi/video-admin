@@ -31,31 +31,33 @@
             <div class="row">
                 <div class="col-xs-12">
                     <h2 class="head"> Full video upload to YouTube</h2>
-                    <div class="form">
-                        <div class="col-xx-12">
-                                <div class="row">
-                                    <div class="col-md-10">
-                                        <div class="file-upload text-center">
-                                            <input id="file" type="file">
-                                            <label for="file">Drop Files here or <br>click to upload your video <br><b>(Maximum 15 min)</b></label>
+                    <div class="row">
+                        <div class="form">
+                            <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="col-md-10 col-sm-8">
+                                            <div class="file-upload text-center">
+                                                <input id="file" type="file">
+                                                <label for="file">Drop Files here or <br>click to upload your video <br><b>(Maximum 15 min)</b></label>
+                                            </div>
+                                             
                                         </div>
-                                         
                                     </div>
-                                </div>
-                                <div class="row">
-                                <div class="col-md-10">
-                                    <div class="progress">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                          aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                            <span>Processing</span>
-                                          </div>
-                                    </div> 
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="submit">
-                                        <button class="btn" type="submit">Publish</button>
-                                        <div class="text-right">
-                                            <a href="#">Draft saved</a>
+                                    <div class="row">
+                                    <div class="col-md-10 col-sm-8">
+                                        <div class="progress">
+                                              <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                              aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                <span>Processing</span>
+                                              </div>
+                                        </div> 
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <div class="submit">
+                                            <button class="btn" type="submit">Publish</button>
+                                            <div class="text-right">
+                                                <a href="#">Draft saved</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -66,17 +68,18 @@
             </div>
 
             <div class="row">
-                <div class="col-md-8">
-                    <ul class="nav nav-tabs">
+               <div class="col-xs-12">
+                   <ul class="nav nav-tabs">
                       <li class="active heading"><a data-toggle="tab" href="#home">Basic info</a></li>
                     </ul>
-                    
+               </div>
+                <div class="col-md-7 col-xs-12">
                     <div class="tab-content">
                       <div id="home" class="tab-pane fade in active">
                         <form class="add-video-form" action="#">
                         <input type="text" placeholder="Version 01">
                         <textarea placeholder="Description"></textarea>
-                         <select id="implementation" class="selectpicker" title="CATEGORY" data-style="select-bg" data-width="100%">
+                         <select id="implementation" data-icon="fa fa-globe" class="selectpicker show-menu-arrow" title="CATEGORY" data-style="select-bg" data-width="100%">
                                       <option>Alberta</option>
                                       <option>British Columbia</option>
                                       <option>New Brunswick</option>
@@ -123,6 +126,49 @@
                       </div>
 
                     </div>
+                </div>
+                <div class="col-md-5 col-xs-12">
+                    <form action="#" class="add-video-sms clearfix">
+                       <div class="img">
+                           <img src="images/profile-pic.jpg" alt="">
+                       </div>
+                        <div class="textarea">
+                            <textarea placeholder="Add a message to your video"></textarea>
+                        </div>
+                    </form>
+                    <div class="play-list">
+                            <a id="play-list-class" class="title" href="javascript:void(0);"><i class="fa fa-plus"></i> Add to playlist</a>
+                            <form class="form-pop">
+                                <div class="part-top">
+                                    <div class="search">
+                                        <input type="text">
+                                    </div>
+                                    <div class="check-box">
+                                        <input id="check-1" type="checkbox">
+                                        <label for="check-1">2nd one play list <i class="fa fa-globe"></i></label>
+                                    </div>
+                                    <div class="check-box">
+                                        <input id="check-2" type="checkbox">
+                                        <label for="check-2">First one play list <i class="fa fa-lock"></i></label>
+                                    </div>
+                                </div>
+                                <div class="part-bottom">
+                                    <input type="text">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <select id="popup-form-select" class="selectpicker" data-style="select-bg" data-width="100%">
+                                              <option data-icon="fa fa-globe">Public</option>
+                                              <option data-icon="fa fa-user">Friend</option>
+                                              <option data-icon="fa fa-lock">Only me</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-6 text-right">
+                                            <button>Create</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                 </div>
             </div>
         </div>
