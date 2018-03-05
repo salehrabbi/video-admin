@@ -3,7 +3,6 @@ sans-serif;
 @import '_rem';
 body {
     font-family: $f;
-    font-weight: 300;
 }
 
 .flex {
@@ -75,14 +74,23 @@ body {
         }
     }
     .heading {
-        h3 {
+        border-bottom: 1px solid #c8c8c8;
+        cursor: pointer;
+        a {
             margin: 0;
             font-size: rem(22px);
             color: #8b8b8b;
-            border-bottom: 2px solid #c8c8c8;
+
             padding-bottom: rem(25px);
             position: relative;
-            margin-bottom: rem(45px);
+            border: none !important;
+            padding-left: 0;
+
+        }
+
+    }
+    .heading.active {
+        a {
             &:after {
                 content: "";
                 width: rem(237px);
@@ -91,8 +99,13 @@ body {
                 position: absolute;
                 left: 0;
                 bottom: 0;
+
             }
         }
+    }
+    .nav-tabs {
+        margin-bottom: rem(50px);
+        border-bottom: 2px solid #c8c8c8;
     }
     .add-video-form {
         input,
@@ -115,7 +128,7 @@ body {
             width: 100%;
             padding: 0 15px;
             margin-top: rem(25px);
-            input{
+            input {
                 margin: 0;
                 border: none;
                 padding: 15px 0;
@@ -150,6 +163,78 @@ body {
         .dropdown-menu > li > a {
             font-size: rem(19px);
             color: #9c9c9c;
+        }
+        .video-thumbnail {
+            h3 {
+                font-size: rem(22px);
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #8b8b8b;
+                margin: 0;
+                margin-top: rem(40px);
+                margin-bottom: 15px;
+            }
+            .img {
+                display: inline-block;
+                position: relative;
+                float: left;
+                width: (100%/3);
+                padding: 0 rem(1px);
+                margin-bottom: 20px;
+                span {
+                    position: absolute;
+                    color: #fff;
+                    top: 50%;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    z-index: 2;
+                    text-align: center;
+                    font-size: rem(20px);
+                    margin-top: rem(-28px/2);
+                    opacity: 0;
+                }
+                .border-1 {
+                    border: rem(6px) solid transparent;
+                }
+                .border-2 {
+                    border: rem(3px) solid transparent;
+                }
+                img {
+                    border: rem(3px) solid transparent;
+                    max-width: 100%;
+                    
+                }
+                &:hover {
+                    .border-1 {
+                        border-color: #f51f27;
+                    }
+                    .border-2 {
+                        border-color: #1a3130;
+                    }
+                    img {
+                        border-color: #e6e6e6;
+                    }
+                    span{
+                        opacity: 1;
+                    }
+                }
+
+            }
+            .active.img {
+                .border-1 {
+                    border-color: #f51f27;
+                }
+                .border-2 {
+                    border-color: #1a3130;
+                }
+                img {
+                    border-color: #e6e6e6;
+                }
+                span{
+                    opacity: 1;
+                }
+            }
         }
     }
 }

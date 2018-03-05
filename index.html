@@ -64,18 +64,16 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
-                <div class="basic-info">
-                    <div class="col-xs-12">
-                        <div class="heading">
-                            <h3>Basic info</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-7">
-                    <form class="add-video-form" action="#">
+                <div class="col-md-8">
+                    <ul class="nav nav-tabs">
+                      <li class="active heading"><a data-toggle="tab" href="#home">Basic info</a></li>
+                    </ul>
+                    
+                    <div class="tab-content">
+                      <div id="home" class="tab-pane fade in active">
+                        <form class="add-video-form" action="#">
                         <input type="text" placeholder="Version 01">
                         <textarea placeholder="Description"></textarea>
                          <select id="implementation" class="selectpicker" title="CATEGORY" data-style="select-bg" data-width="100%">
@@ -95,10 +93,36 @@
                                     
                                     <input class="tag" type="text" placeholder="Tags (e.g., albert einstein, flying pig, mashup)" data-role="tagsinput">
                                     <div class="video-thumbnail">
-                                        <h3>video thumbnails</h3>
-                                        <img src="" alt="">
+                                        <h3>video thumbnails <i class="fa fa-question-circle" data-toggle="popover" data-content="test content <a href='#' title='test add link'>link on content</a>add link on boostrap popover text add link on boostrap popover text add link on boostrap popover text"></i></h3>
+                                        <a href="#" class="img ">
+                                            <div class="border-1">
+                                                <div class="border-2">
+                                                    <img src="images/thumbnail.jpg" alt="">
+                                                    <span>Set as thumbnail</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="img active">
+                                            <div class="border-1">
+                                                <div class="border-2">
+                                                    <img src="images/thumbnail.jpg" alt="">
+                                                    <span>Set as thumbnail</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="img">
+                                            <div class="border-1">
+                                                <div class="border-2">
+                                                    <img src="images/thumbnail.jpg" alt="">
+                                                    <span>Set as thumbnail</span>
+                                                </div>
+                                            </div>
+                                        </a>
                                     </div>
                     </form>
+                      </div>
+
+                    </div>
                 </div>
             </div>
         </div>
