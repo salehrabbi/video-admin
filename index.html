@@ -18,6 +18,8 @@
     <link type="text/css" href="css/bootstrap-select.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
     <link href="css/themify-icons.css" rel="stylesheet">
+
+
     <link href="css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -25,158 +27,125 @@
     <![endif]-->
 </head>
 
-<body>
-    <div class="video-post">
+<body class="trafic-page">
+    <header class="profile-top">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <h2 class="head"> Full video upload to YouTube</h2>
-                    <div class="row">
-                        <div class="form">
-                            <div class="col-xs-12">
-                                    <div class="row">
-                                        <div class="col-md-10 col-sm-8">
-                                            <div class="file-upload text-center">
-                                                <input id="file" type="file">
-                                                <label for="file">Drop Files here or <br>click to upload your video <br><b>(Maximum 15 min)</b></label>
-                                            </div>
-                                             
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                    <div class="col-md-10 col-sm-8">
-                                        <div class="progress">
-                                              <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                              aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                                <span>Processing</span>
-                                              </div>
-                                        </div> 
-                                    </div>
-                                    <div class="col-md-2 col-sm-4">
-                                        <div class="submit">
-                                            <button class="btn" type="submit">Publish</button>
-                                            <div class="text-right">
-                                                <a href="#">Draft saved</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xs-12 text-right">
+                    <a href="#" class="img">
+                        <img src="images/profile.png" alt="">
+                        <p>Jim2 test</p>
+                    </a>
                 </div>
             </div>
-
+        </div>
+    </header>
+    <div class="dashboard">
+        <div class="container">
             <div class="row">
-               <div class="col-xs-12">
-                   <ul class="nav nav-tabs">
-                      <li class="active heading"><a data-toggle="tab" href="#home">Basic info</a></li>
-                    </ul>
-               </div>
-                <div class="col-md-7 col-xs-12">
-                    <div class="tab-content">
-                      <div id="home" class="tab-pane fade in active">
-                        <form class="add-video-form" action="#">
-                        <input type="text" placeholder="Version 01">
-                        <textarea placeholder="Description"></textarea>
-                         <select id="implementation" data-icon="fa fa-globe" class="selectpicker show-menu-arrow" title="CATEGORY" data-style="select-bg" data-width="100%">
-                                      <option>Alberta</option>
-                                      <option>British Columbia</option>
-                                      <option>New Brunswick</option>
-                                      <option>Newfoundland and Labrador</option>
-                                      <option>Northwest Territories</option>
-                                      <option>Nova Scotia</option>
-                                      <option>Nunavut</option>
-                                      <option>Ontario</option>
-                                      <option>Prince Edward Island</option>
-                                      <option>Quebec</option>
-                                      <option>Saskatchewan</option>
-                                      <option>Yukon</option>
-                                    </select>
-                                    
-                                    <input class="tag" type="text" placeholder="Tags (e.g., albert einstein, flying pig, mashup)" data-role="tagsinput">
-                                    <div class="video-thumbnail">
-                                        <h3>video thumbnails <i class="fa fa-question-circle" data-toggle="popover" data-content="test content <a href='#' title='test add link'>link on content</a>add link on boostrap popover text add link on boostrap popover text add link on boostrap popover text"></i></h3>
-                                        <a href="#" class="img ">
-                                            <div class="border-1">
-                                                <div class="border-2">
-                                                    <img src="images/thumbnail.jpg" alt="">
-                                                    <span>Set as thumbnail</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="img active">
-                                            <div class="border-1">
-                                                <div class="border-2">
-                                                    <img src="images/thumbnail.jpg" alt="">
-                                                    <span>Set as thumbnail</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="img">
-                                            <div class="border-1">
-                                                <div class="border-2">
-                                                    <img src="images/thumbnail.jpg" alt="">
-                                                    <span>Set as thumbnail</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                    </form>
-                      </div>
-
-                    </div>
+                <div class="col-md-8">
+                    <p><span>Hello Charlie,</span> here’s some quick facts on your traffic:</p>
                 </div>
-                <div class="col-md-5 col-xs-12">
-                    <form action="#" class="add-video-sms clearfix">
-                       <div class="img">
-                           <img src="images/profile-pic.jpg" alt="">
-                       </div>
-                        <div class="textarea">
-                            <textarea placeholder="Add a message to your video"></textarea>
-                        </div>
-                    </form>
-                    <div class="play-list">
-                            <a id="play-list-class" class="title" href="javascript:void(0);"><i class="fa fa-plus"></i> Add to playlist</a>
-                            <form class="form-pop">
-                                <div class="part-top">
-                                    <div class="search">
-                                        <input type="text">
-                                    </div>
-                                    <div class="check-box">
-                                        <input id="check-1" type="checkbox">
-                                        <label for="check-1">2nd one play list <i class="fa fa-globe"></i></label>
-                                    </div>
-                                    <div class="check-box">
-                                        <input id="check-2" type="checkbox">
-                                        <label for="check-2">First one play list <i class="fa fa-lock"></i></label>
-                                    </div>
-                                </div>
-                                <div class="part-bottom">
-                                    <input type="text">
-                                    <div class="row">
-                                        <div class="col-xs-6">
-                                            <select id="popup-form-select" class="selectpicker" data-style="select-bg" data-width="100%">
-                                              <option data-icon="fa fa-globe">Public</option>
-                                              <option data-icon="fa fa-user">Friend</option>
-                                              <option data-icon="fa fa-lock">Only me</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-xs-6 text-right">
-                                            <button>Create</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                <div class="col-md-4 text-right">
+                    <a href="#"><i class="fa fa-globe"></i>MY DASHBOARD</a>
                 </div>
             </div>
         </div>
     </div>
+    <main class="social-trafic">
+        <div class="container">
+            <div class="row">
+                <div class="content-wraper  clearfix">
+                    <i class="fa fa-facebook"></i>
+                    <div class="flex">
+                        <div class="col-md-4 text-center">
+                            <div class="number">120</div>
+                            <p>Previews uploaded <br> to Facebook.</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="number">10</div>
+                            <p>Number of Clicks</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div id="diagram-id-1" class="diagram" data-circle-diagram='{
+                                    "percent": "70%",
+                                    "size": "150",
+                                    "borderWidth": "12",
+                                    "bgFill": "#cccccc",
+                                    "frFill": "#3a5897",
+                                    "textSize": "42",
+                                    "textColor": "#3a5897"
+                                    }'>
+                            </div>
+                            <p>Traffic Average</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content-wraper youtube-trafic  clearfix">
+                    <i class="ti-youtube"></i>
+                    <div class="flex">
+                        <div class="col-md-4 text-center">
+                            <div class="number">120</div>
+                            <p>Previews uploaded <br> to Youtube</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="number">10</div>
+                            <p>Number of Clicks</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div id="diagram-id-2" class="diagram" data-circle-diagram='{
+                                    "percent": "70%",
+                                    "size": "150",
+                                    "borderWidth": "12",
+                                    "bgFill": "#cccccc",
+                                    "frFill": "#b90000",
+                                    "textSize": "42",
+                                    "textColor": "#b90000"
+                                    }'>
+                            </div>
+                            <p>Traffic Average</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content-wraper twitter-trafic  clearfix">
+                    <i class="fa fa-twitter"></i>
+                    <div class="flex">
+                        <div class="col-md-4 text-center">
+                            <div class="number">120</div>
+                            <p>Previews uploaded <br> to Youtube</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="number">10</div>
+                            <p>Number of Clicks</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div id="diagram-id-3" class="diagram" data-circle-diagram='{
+                                    "percent": "70%",
+                                    "size": "150",
+                                    "borderWidth": "12",
+                                    "bgFill": "#cccccc",
+                                    "frFill": "#00abec",
+                                    "textSize": "42",
+                                    "textColor": "#00abec"
+                                    }'>
+                            </div>
+                            <p>Traffic Average</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
     <script src="js/bootstrap-tagsinput.min.js"></script>
+    <script type="text/javascript" src="js/progresscircle.js"></script>
+
     <script src="js/custom.js" type="text/javascript"></script>
 </body>
 
