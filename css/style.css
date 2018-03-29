@@ -17,6 +17,10 @@ body {
   .container {
     width: 1620px;
   }
+
+  html {
+    font-size: 150%;
+  }
 }
 .feedback-page .profile-top {
   padding-top: 16px;
@@ -35,4 +39,365 @@ body {
   width: 65px;
   height: 65px;
   margin-right: 15px;
+}
+.feedback-page .banner {
+  background: url(../images/2.jpg) no-repeat;
+  background-size: cover;
+  min-height: 15rem;
+  position: relative;
+}
+.feedback-page .banner a.change {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.1875rem 0.8125rem;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.feedback-page .button-bold {
+  padding: 0.5rem;
+  background: #ed1d41;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.25rem;
+}
+.feedback-page .button-bold i {
+  float: left;
+  display: block;
+  width: 4.375rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2.125rem;
+  border-right: 2px solid #b51531;
+  padding: 0.375rem 0;
+}
+.feedback-page .button-bold p {
+  float: left;
+  width: calc( 100% - 4.375rem);
+  font-size: 1.25rem;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem 0;
+  color: #fff !important;
+}
+.feedback-page .feedback-profile {
+  padding-top: 2.5rem;
+}
+.feedback-page .feedback-profile .img {
+  border: 0.25rem solid #d7d7d7;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.feedback-page .feedback-profile .img img {
+  height: 6.25rem;
+  width: 6.25rem;
+  border-radius: 50%;
+}
+.feedback-page .feedback-profile a.title {
+  font-weight: 600;
+  font-size: 1.625rem;
+  color: #f23c62;
+  display: inline-block;
+  margin-top: 0.3125rem;
+}
+.feedback-page .feedback-profile h2 {
+  font-size: 2.5625rem;
+  font-weight: 700;
+  color: #808080;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+.feedback-page .feedback-profile p {
+  color: #808080;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.feedback-page a.follow {
+  display: inline-block;
+  background: #e62d48;
+  color: #fff;
+  font-size: 0.625rem;
+  padding: 0.3125rem 0.6875rem;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin-left: 0.9375rem;
+  position: relative;
+  top: -0.125rem;
+}
+.feedback-page a.follow i {
+  margin-right: 5px;
+}
+.feedback-page .feedback-carosual-review {
+  margin-top: 0.9375rem;
+  padding-bottom: 6.25rem;
+  border-bottom: 0.125rem solid #dbdbdb;
+}
+.feedback-page .feedback-carosual-review .container {
+  border-top: 0.125rem solid #dbdbdb;
+  padding-top: 4.375rem;
+}
+.feedback-page .owl-carousel-1 {
+  margin-top: 3.125rem;
+}
+.feedback-page .owl-carousel-1 .owl-prev,
+.feedback-page .owl-carousel-1 .owl-next {
+  position: absolute;
+  left: -35px;
+  top: 50%;
+  font-size: 3.125rem;
+  color: #b3b3b3;
+  margin-top: -2.1875rem;
+}
+.feedback-page .owl-carousel-1 .owl-next {
+  left: auto;
+  right: -35px;
+}
+.feedback-page .your-review .icon {
+  margin-bottom: 10px;
+}
+.feedback-page .your-review .icon .left-big {
+  float: left;
+}
+.feedback-page .your-review .icon .left-big i {
+  height: 4.6875rem;
+  width: 4.6875rem;
+  background: #daac20;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 4.6875rem;
+  font-size: 2.3125rem;
+  margin-top: 1.5625rem;
+}
+.feedback-page .your-review .icon .star {
+  float: left;
+  width: calc(100% - 4.6875rem);
+  padding-left: 1.875rem;
+}
+.feedback-page .your-review .icon .star p {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #696868;
+  margin: 0;
+}
+.feedback-page .your-review .icon .star i {
+  float: left;
+  width: 20%;
+  font-size: 3.125rem;
+  color: #e1e1e1;
+  margin: 0.625rem 0;
+}
+.feedback-page .your-review .icon .star i.active {
+  color: #ff9c00;
+}
+.feedback-page .review-form {
+  margin-top: 1.875rem;
+}
+.feedback-page .review-form textarea {
+  width: 100%;
+  height: 13.875rem;
+  background: #f4f3f3;
+  font-size: 1rem;
+  color: #808080;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #cdcccc;
+}
+.feedback-page .review-form input {
+  display: block;
+  background: #00ceb7;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3125rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0.625rem;
+  height: 3.4375rem;
+}
+.feedback-page .comments {
+  background: #f4f3f3;
+  margin-top: 15px;
+}
+.feedback-page .comments .comment-list > li {
+  padding: 1.875rem 0;
+  border-bottom: 2px solid #dfdfdf;
+}
+.feedback-page .comments .avator {
+  border: 0.125rem solid #d7d7d7;
+  padding: 0.375rem;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+}
+.feedback-page .comments .avator img {
+  height: 4.8125rem;
+  width: 4.8125rem;
+  border-radius: 50%;
+}
+.feedback-page .comments .text {
+  float: left;
+  width: calc(100% - 5.8125rem);
+  padding-left: 1.25rem;
+  padding-top: 1.125rem;
+}
+.feedback-page .comments .text a.title {
+  font-size: 1.5625rem;
+  font-weight: 600;
+  color: #808080;
+}
+.feedback-page .comments .text a.review {
+  font-size: 1.25rem;
+  color: #f1375e;
+}
+.feedback-page .comments .flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feedback-page .comments .no-style {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.feedback-page .comments .comment-rate {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+}
+.feedback-page .comments .comment-rate li {
+  display: inline-block;
+  margin-left: 1.875rem;
+}
+.feedback-page .comments .comment-rate li span {
+  font-size: 1.4375rem;
+  color: #808080;
+}
+.feedback-page .comments .comment-rate li .cat {
+  margin-right: 0.9375rem;
+  color: #dfba4b;
+}
+.feedback-page .comments .comment-rate li i {
+  font-size: 1.4375rem;
+}
+.feedback-page .comments .comment-rate li .fa-star {
+  color: #ff9c00;
+  font-size: 1.25rem;
+}
+.feedback-page .comments .comment-rate li .fa-angle-right {
+  color: #808080;
+  margin-left: 1.5625rem;
+}
+.feedback-page .comments .your-comment.active {
+  display: block;
+}
+.feedback-page .comments .your-comment {
+  margin-top: 0.625rem;
+  display: none;
+}
+.feedback-page .comments .your-comment input {
+  width: 100%;
+  font-size: 1.1875rem;
+  color: #969696;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #a3a1a2;
+  padding: 0.3125rem 0.9375rem;
+}
+.feedback-page .comments .your-comment .button {
+  border-radius: 0;
+  color: #fff;
+  padding: 0.125rem 0.625rem;
+  background: #e62d48;
+  text-transform: uppercase;
+  border: none;
+  margin: 0.375rem 0;
+  font-weight: 600;
+}
+.feedback-page .comments .your-comment .cencel {
+  background: #dcdcdc;
+  color: #000;
+  margin-right: 0.375rem;
+}
+.feedback-page .comments .comment-body {
+  padding-left: 7.125rem;
+}
+.feedback-page .comments .comment-body p {
+  font-size: 1.1875rem;
+  color: #969696;
+}
+.feedback-page .comments .comment-body .like-dislike {
+  margin-top: 1.25rem;
+}
+.feedback-page .comments .comment-body .like-dislike a {
+  font-size: 1.25rem;
+  color: #9f9f9f;
+  display: inline-block;
+  margin-right: 1.25rem;
+  text-decoration: none;
+}
+.feedback-page .comments .comment-body .like-dislike a span {
+  color: #f1375e;
+}
+.feedback-page .comments .comment-body .like-dislike a i {
+  margin-right: 0.9375rem;
+}
+.feedback-page .comments .comment-body .like-dislike a.write-comment {
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+.feedback-page .comments .comment-body .like-dislike a.write-comment i {
+  font-size: 35px;
+  margin-left: 12px;
+  position: relative;
+  top: 5px;
+}
+.feedback-page .comments .comment-body .like-dislike a.write-comment.active .fa-angle-down::before {
+  content: "\f106";
+}
+.feedback-page .comments .followed {
+  background: #9d9d9d;
+}
+.feedback-page .comments li > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-left: 7.125rem;
+}
+.feedback-page .comments li > ul > li {
+  padding: 1.875rem 0;
+  border-bottom: 2px solid #dfdfdf;
+}
+.feedback-page .comments li > ul > li:last-child {
+  border-bottom: transparent;
+}
+.feedback-page .comments li > ul > li p {
+  font-size: 1.0625rem;
+  color: #969696;
+  margin-top: 0.3125rem;
+  margin-bottom: 0;
+}
+.feedback-page .comments li > ul > li .text a.title {
+  font-size: 0.9375rem;
+  color: #ed1d42;
+}
+.feedback-page .comments .avator-small .avator {
+  padding: 0.1875rem;
+}
+.feedback-page .comments .avator-small .avator img {
+  height: 3.125rem;
+  width: 3.125rem;
 }
