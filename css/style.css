@@ -617,6 +617,9 @@ body {
   .feedback-single .comments .comment-rate li .fa-angle-right {
     margin-left: 19px;
   }
+  .feedback-single .comments .text a.title {
+    font-size: 21px;
+  }
 }
 @media (max-width: 440px) {
   .container {
