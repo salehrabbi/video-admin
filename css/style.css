@@ -561,3 +561,40 @@ body {
   font-size: 3.125rem;
   color: #b3b3b3;
 }
+
+@media (max-width: 1199px) {
+  .jq-star {
+    margin-right: 8px;
+  }
+}
+@media (max-width: 991px) {
+  .feedback-page .button-bold {
+    max-width: 425px;
+  }
+  .feedback-page .button-bold p {
+    margin: 0 !important;
+  }
+
+  .feedback-page .feedback-profile p {
+    margin-bottom: 30px;
+  }
+
+  .feedback-page .your-review {
+    margin-top: 50px;
+  }
+
+  .feedback-page .comments .comment-rate {
+    margin-top: 0;
+    text-align: right;
+    margin-bottom: 15px;
+  }
+
+  .feedback-page .comments .comment-body .like-dislike a.write-comment {
+    margin-left: 0;
+  }
+}
+@media (max-width: 440px) {
+  .container {
+    width: 440px;
+  }
+}
