@@ -488,3 +488,98 @@ body {
 .jq-star {
     margin-right: rem(10px);
 }
+
+.feedback-single {
+    .feedback-banner {
+        background: url(../images/1.jpg) no-repeat;
+        background-size: cover;
+        ;
+        .overlay {
+            min-height: 536px;
+            background: rgba(36, 119, 248, .7);
+            padding-top: 130px;
+        }
+        .text {
+            color: #fff;
+            font-family: $r;
+            font-weight: 600;
+            margin-top: 120px;
+            h1 {
+                font-size: rem(73px);
+                margin: 0;
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+            p {
+                font-size: rem(20px);
+                line-height: (22/20);
+                font-weight: 600;
+            }
+        }
+        .search {
+            border: 2px solid #fff;
+            border-radius: 4px;
+
+            max-width: 445px;
+            margin-left: auto;
+            input {
+                background: none;
+                border: none;
+                padding: 0 rem(30px);
+                opacity: 1;
+                width: calc(100% - 77px);
+                float: left;
+                height: 65px;
+                color: #fff;
+                padding-right: 0;
+            }
+            input::-webkit-input-placeholder {
+                /* Chrome */
+                color: #fffefe;
+            }
+            input:-ms-input-placeholder {
+                /* IE 10+ */
+                color: #fffefe;
+            }
+            input::-moz-placeholder {
+                /* Firefox 19+ */
+                color: #fffefe;
+                opacity: 1;
+            }
+            input:-moz-placeholder {
+                /* Firefox 4 - 18 */
+                color: #fffefe;
+                opacity: 1;
+            }
+            button {
+                background: none;
+                border: none;
+                width: 77px;
+                float: left;
+                padding: 8px;
+                height: 65px;
+            }
+        }
+    }
+
+
+    .comments {
+        background: #fff;
+
+    }
+    .comments .comment-list > li {
+        padding: rem(20px) rem(40px);
+        &:nth-child(even) {
+            background: #f0f0f0;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    .show-more {
+        margin: 30px 0;
+        font-size: 3.125rem;
+        color: #b3b3b3;
+    }
+
+}

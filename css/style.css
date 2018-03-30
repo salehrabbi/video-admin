@@ -474,3 +474,90 @@ body {
 .jq-star {
   margin-right: 0.625rem;
 }
+
+.feedback-single .feedback-banner {
+  background: url(../images/1.jpg) no-repeat;
+  background-size: cover;
+}
+.feedback-single .feedback-banner .overlay {
+  min-height: 536px;
+  background: rgba(36, 119, 248, 0.7);
+  padding-top: 130px;
+}
+.feedback-single .feedback-banner .text {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin-top: 120px;
+}
+.feedback-single .feedback-banner .text h1 {
+  font-size: 4.5625rem;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.feedback-single .feedback-banner .text p {
+  font-size: 1.25rem;
+  line-height: 1.1;
+  font-weight: 600;
+}
+.feedback-single .feedback-banner .search {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  max-width: 445px;
+  margin-left: auto;
+}
+.feedback-single .feedback-banner .search input {
+  background: none;
+  border: none;
+  padding: 0 1.875rem;
+  opacity: 1;
+  width: calc(100% - 77px);
+  float: left;
+  height: 65px;
+  color: #fff;
+  padding-right: 0;
+}
+.feedback-single .feedback-banner .search input::-webkit-input-placeholder {
+  /* Chrome */
+  color: #fffefe;
+}
+.feedback-single .feedback-banner .search input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fffefe;
+}
+.feedback-single .feedback-banner .search input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fffefe;
+  opacity: 1;
+}
+.feedback-single .feedback-banner .search input:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #fffefe;
+  opacity: 1;
+}
+.feedback-single .feedback-banner .search button {
+  background: none;
+  border: none;
+  width: 77px;
+  float: left;
+  padding: 8px;
+  height: 65px;
+}
+.feedback-single .comments {
+  background: #fff;
+}
+.feedback-single .comments .comment-list > li {
+  padding: 1.25rem 2.5rem;
+}
+.feedback-single .comments .comment-list > li:nth-child(even) {
+  background: #f0f0f0;
+}
+.feedback-single .comments .comment-list > li:last-child {
+  border-bottom: none;
+}
+.feedback-single .show-more {
+  margin: 30px 0;
+  font-size: 3.125rem;
+  color: #b3b3b3;
+}
