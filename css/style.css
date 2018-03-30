@@ -48,7 +48,7 @@ body {
 }
 .feedback-page .banner a.change {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   padding: 0.1875rem 0.8125rem;
   color: #fff;
   position: absolute;
@@ -110,18 +110,28 @@ body {
   color: #f23c62;
   display: inline-block;
   margin-top: 0.3125rem;
+  font-family: "Raleway", sans-serif;
 }
 .feedback-page .feedback-profile h2 {
   font-size: 2.5625rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #808080;
   margin-top: 1.875rem;
   margin-bottom: 1.25rem;
+  font-family: "Raleway", sans-serif;
 }
 .feedback-page .feedback-profile p {
   color: #808080;
   font-size: 1.25rem;
   line-height: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.feedback-page .button-bold p {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 .feedback-page a.follow {
   display: inline-block;
@@ -134,7 +144,7 @@ body {
   text-decoration: none;
   margin-left: 0.9375rem;
   position: relative;
-  top: -0.125rem;
+  top: -0.3125rem;
 }
 .feedback-page a.follow i {
   margin-right: 5px;
@@ -147,6 +157,41 @@ body {
 .feedback-page .feedback-carosual-review .container {
   border-top: 0.125rem solid #dbdbdb;
   padding-top: 4.375rem;
+}
+.feedback-page .feedback-carosual-review .content {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.feedback-page .feedback-carosual-review .content .play {
+  display: block;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  text-align: center;
+  line-height: 45px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: -1.40625rem;
+  color: #000;
+}
+.feedback-page .feedback-carosual-review .content .play:hover {
+  background: #fff;
+}
+.feedback-page .feedback-carosual-review .content .time {
+  min-width: 2.5rem;
+  height: 1.25rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0.3125rem;
+  right: 0;
+  font-size: 0.875rem;
+  color: #fff;
+  background: #0b0a05;
 }
 .feedback-page .owl-carousel-1 {
   margin-top: 3.125rem;
@@ -191,6 +236,8 @@ body {
   font-weight: 600;
   color: #696868;
   margin: 0;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 5px;
 }
 .feedback-page .your-review .icon .star i {
   float: left;
@@ -214,6 +261,8 @@ body {
   padding: 20px;
   border-radius: 5px;
   border: 2px solid #cdcccc;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
 }
 .feedback-page .review-form input {
   display: block;
@@ -257,10 +306,12 @@ body {
   font-size: 1.5625rem;
   font-weight: 600;
   color: #808080;
+  font-family: "Raleway", sans-serif;
 }
 .feedback-page .comments .text a.review {
   font-size: 1.25rem;
   color: #f1375e;
+  font-weight: 300;
 }
 .feedback-page .comments .flex {
   -webkit-box-align: center;
@@ -285,6 +336,11 @@ body {
 .feedback-page .comments .comment-rate li span {
   font-size: 1.4375rem;
   color: #808080;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  margin-right: 2px;
+  position: relative;
+  top: -0.125rem;
 }
 .feedback-page .comments .comment-rate li .cat {
   margin-right: 0.9375rem;
@@ -326,6 +382,7 @@ body {
   border: none;
   margin: 0.375rem 0;
   font-weight: 600;
+  min-width: 97px;
 }
 .feedback-page .comments .your-comment .cencel {
   background: #dcdcdc;
@@ -338,6 +395,8 @@ body {
 .feedback-page .comments .comment-body p {
   font-size: 1.1875rem;
   color: #969696;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 .feedback-page .comments .comment-body .like-dislike {
   margin-top: 1.25rem;
@@ -348,6 +407,7 @@ body {
   display: inline-block;
   margin-right: 1.25rem;
   text-decoration: none;
+  font-weight: 300;
 }
 .feedback-page .comments .comment-body .like-dislike a span {
   color: #f1375e;
@@ -357,7 +417,8 @@ body {
 }
 .feedback-page .comments .comment-body .like-dislike a.write-comment {
   text-transform: uppercase;
-  margin-left: 30px;
+  margin-left: 1.875rem;
+  font-weight: 300;
 }
 .feedback-page .comments .comment-body .like-dislike a.write-comment i {
   font-size: 35px;
@@ -389,6 +450,8 @@ body {
   color: #969696;
   margin-top: 0.3125rem;
   margin-bottom: 0;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
 }
 .feedback-page .comments li > ul > li .text a.title {
   font-size: 0.9375rem;
@@ -400,4 +463,8 @@ body {
 .feedback-page .comments .avator-small .avator img {
   height: 3.125rem;
   width: 3.125rem;
+}
+
+.jq-star {
+  margin-right: 0.625rem;
 }

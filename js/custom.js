@@ -18,11 +18,11 @@ $(".your-comment .cencel").click(function () {
     $(".your-comment").removeClass("active");
 });
 
-$(function() {
+$(function () {
 
-	$('#diagram-id-1').circleDiagram();
-	$('#diagram-id-2').circleDiagram();
-	$('#diagram-id-3').circleDiagram();
+    $('#diagram-id-1').circleDiagram();
+    $('#diagram-id-2').circleDiagram();
+    $('#diagram-id-3').circleDiagram();
 });
 
 
@@ -52,4 +52,17 @@ $('.owl-carousel-1').owlCarousel({
             items: 3,
         }
     }
-})
+});
+
+
+$(".demo").starRating({
+    totalStars: 5,
+    emptyColor: '#e1e1e1',
+    hoverColor: '#ff9c00',
+    activeColor: '#ff9c00',
+    ratedColor: '#ff9c00',
+    strokeWidth: 0,
+    starSize: 45,
+    useGradient: false,
+    initialRating: 2,
+});
