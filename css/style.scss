@@ -120,7 +120,7 @@ body {
         }
         p {
             color: #808080;
-            font-size: rem(20px);
+            font-size: 1.20rem;
             line-height: 1;
             font-family: $r;
             font-weight: 600;
@@ -146,7 +146,7 @@ body {
         text-decoration: none;
         margin-left: rem(15px);
         position: relative;
-        top: rem(-5px);
+        top: rem(-4px);
         i {
             margin-right: 5px;
         }
@@ -192,6 +192,7 @@ body {
                 font-size: rem(14px);
                 color: #fff;
                 background: #0b0a05;
+                font-weight: 600;
             }
         }
     }
@@ -331,6 +332,7 @@ body {
             margin: 0;
             list-style: none;
             text-align: right;
+            margin-top: rem(-21px);
             li {
                 display: inline-block;
                 margin-left: rem(30px);
@@ -439,6 +441,7 @@ body {
         .followed {
             background: #9d9d9d;
         }
+
         li {
             > ul {
                 padding: 0;
@@ -462,6 +465,10 @@ body {
                     .text a.title {
                         font-size: rem(15px);
                         color: #ed1d42;
+                    }
+                    a.follow {
+                        font-size: 9px;
+                        top: -1px;
                     }
                 }
             }

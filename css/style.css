@@ -122,7 +122,7 @@ body {
 }
 .feedback-page .feedback-profile p {
   color: #808080;
-  font-size: 1.25rem;
+  font-size: 1.20rem;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -144,7 +144,7 @@ body {
   text-decoration: none;
   margin-left: 0.9375rem;
   position: relative;
-  top: -0.3125rem;
+  top: -0.25rem;
 }
 .feedback-page a.follow i {
   margin-right: 5px;
@@ -192,6 +192,7 @@ body {
   font-size: 0.875rem;
   color: #fff;
   background: #0b0a05;
+  font-weight: 600;
 }
 .feedback-page .owl-carousel-1 {
   margin-top: 3.125rem;
@@ -328,6 +329,7 @@ body {
   margin: 0;
   list-style: none;
   text-align: right;
+  margin-top: -1.3125rem;
 }
 .feedback-page .comments .comment-rate li {
   display: inline-block;
@@ -456,6 +458,10 @@ body {
 .feedback-page .comments li > ul > li .text a.title {
   font-size: 0.9375rem;
   color: #ed1d42;
+}
+.feedback-page .comments li > ul > li a.follow {
+  font-size: 9px;
+  top: -1px;
 }
 .feedback-page .comments .avator-small .avator {
   padding: 0.1875rem;
