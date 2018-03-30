@@ -592,6 +592,31 @@ body {
   .feedback-page .comments .comment-body .like-dislike a.write-comment {
     margin-left: 0;
   }
+
+  .feedback-single .comments .comment-rate {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .feedback-single .feedback-banner .search {
+    max-width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .feedback-single .comments .comment-rate li {
+    margin-left: 10px;
+  }
+  .feedback-single .comments .comment-rate li .cat {
+    margin-right: 10px;
+  }
+  .feedback-single .comments .comment-rate li span {
+    margin-right: 5px;
+  }
+  .feedback-single .comments .comment-rate li .fa-angle-right {
+    margin-left: 19px;
+  }
 }
 @media (max-width: 440px) {
   .container {
