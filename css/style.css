@@ -622,7 +622,70 @@ body {
   }
 }
 @media (max-width: 440px) {
-  .container {
-    width: 440px;
+  .feedback-page .button-bold p {
+    white-space: normal;
+    padding: 0 5px;
+    line-height: 1.2;
+  }
+
+  .jq-star {
+    margin-right: 7px;
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .feedback-page .comments .avator img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .feedback-page .comments .text {
+    width: calc(100% - 64px);
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .feedback-page .comments .text a.title {
+    font-size: 19px;
+  }
+
+  .feedback-page .comments .text a.review {
+    font-size: 16px;
+  }
+
+  .feedback-page .comments .comment-rate li {
+    margin-left: 0;
+  }
+  .feedback-page .comments .comment-rate li:first-child {
+    margin-left: 0;
+  }
+
+  .feedback-page .comments .comment-rate li .fa-angle-right {
+    margin-left: 10px;
+    margin-right: 14px;
+  }
+
+  .feedback-page .comments .comment-rate li span {
+    margin-right: 2px;
+  }
+
+  .feedback-page .comments .comment-rate li .cat {
+    margin-right: 3px;
+  }
+
+  .feedback-page .comments .comment-body {
+    padding-left: 2.125rem;
+  }
+
+  .feedback-page .comments li > ul {
+    padding-left: 2.125rem;
+  }
+
+  .feedback-single .feedback-banner .text h1 {
+    font-size: 3.563rem;
+  }
+
+  .feedback-single .comments .comment-list > li {
+    padding: 1.25rem 5px;
   }
 }
